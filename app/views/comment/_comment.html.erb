@@ -1,0 +1,10 @@
+<div id="comment_<%= comment.id %>" class="comment">
+  <h1><%= comment.title %></h1>
+  <%= comment.content %>
+  <%= render :partial => 'comment/comment_form', :locals => {:comment => comment}%>
+  <ul>
+  <%- comment.children.each do |c| -%>
+    <li><%= render :partial => 'comment/comment', :locals => {:comment => c} %></li>
+  <%- end -%>
+  <ul>
+</div>

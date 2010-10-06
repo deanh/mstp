@@ -1,0 +1,18 @@
+<%- form_tag(:action => 'create') do -%>
+  <span id="form-link-<%= comment.id %>"><a href="#">Reply</a></span>
+  <div id="form-for-<%= comment.id %>" style="display:none">
+    <%= hidden_field_tag(:parent, comment.id) %>
+    <%= hidden_field_tag(:top, @comment.id) %>
+    <%= text_area_tag(:content, "", :size => '60x15') %><br/>
+    <%= submit_tag("Save", :id => "submit-#{comment.id}") %> <button type="button" id="cancel-<%= comment.id %>">Cancel</button>
+  </div>
+<%- end -%>
+
+<%- content_for :inline_js do -%>
+  $('#form-link-<%= comment.id %>').click(function () {
+      $('#form-for-<%= comment.id %>').toggle();
+  });
+  $('#cancel-<%= comment.id %>').click(function () {
+      $('#form-for-<%= comment.id %>').toggle();      
+  });
+<%- end -%>
