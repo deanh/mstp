@@ -1,4 +1,8 @@
 class CommentController < ApplicationController
+  def index
+    @comments = Comment.find(:all, :conditions => "parent_id is NULL")
+  end
+
   def show
     @comment = Comment.find(params[:id])
   end

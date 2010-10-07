@@ -1,0 +1,25 @@
+<div id="comments">
+  <%- @comments.each do |comment| -%>
+    <div id="comment_<%= comment.id %>" class="comment">
+      <h1><%= comment.title %></h1>
+      <%= comment.content %>
+      <ul>
+    </div>
+    <%- content_for :inline_js do -%>
+    $('#comment_<%= comment.id %>').click(function () {
+      window.location = "<%= url_for :action => 'show', :id => comment.id %>";
+      return false;
+    });
+    <%- end -%>
+  <%- end -%>
+</div>
+
+<%- content_for :inline_js do -%>
+(function () {
+  $('.comment').hover(function () {
+    $(this).css("background-color", "#fff247");
+  }, function() {
+    $(this).css("background-color", "#fff");
+  });
+})();
+<%- end -%>

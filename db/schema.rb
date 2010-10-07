@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101001023022) do
+ActiveRecord::Schema.define(:version => 20101007025232) do
 
   create_table "comments", :force => true do |t|
     t.integer  "parent_id"
@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(:version => 20101001023022) do
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "uid"
+    t.string   "source"
   end
 
 end
