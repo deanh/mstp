@@ -1,4 +1,6 @@
 class CommentController < ApplicationController
+  before_filter :store_location
+
   def index
     @comments = Comment.find(:all, :conditions => "parent_id is NULL")
   end

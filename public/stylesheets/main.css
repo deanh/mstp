@@ -1,8 +1,15 @@
 * {margin: 0; padding: 0;}
-body {background-color: #91b250; 
+body {background-color: #b5f13d; 
     color: #0f7a44; font: 0.8125em Verdana, sans-serif; }
 
-h1 {font: 1.5em Georgia, "Times New Roman", serif; 
+body#user {background-color: #000; margin-top: 50px;
+    color: #fff; font: 1.2em Verdana, sans-serif; }
+body#user div#login {display: none; margin-left: 100000px}
+body#user ul {list-style: none;}
+
+h1 {font: 2em Georgia, "Times New Roman", serif; 
+    letter-spacing: 1px; color: #A19613}
+h2 {font: 1.5em Georgia, "Times New Roman", serif; 
     letter-spacing: 1px; color: #871053}
 
 a {color:#d63691}
@@ -10,6 +17,9 @@ button {margin: 5px 5px 10px 0px; background-color: buttonface;
     border: 2px outset buttonface; color: buttontext; cursor: default; 
     padding: 2px 6px 3px; text-align: center; -webkit-appearance: button;}
 
+div#login {position: fixed; top: 0; left: 0; height: 40px; 
+    width: 100%; background-color: #000; color: #fff;}
+div#login #login-bar {padding: 10px; position: fixed; right: 20px}
 div#main {margin: auto; width: 70%;}
 div#comments {margin: 0 10px; padding: 50px 5px; 
               background-color: #fff; height: 100%; /* border: 1px dotted #0f7a44; */}
@@ -17,3 +27,4 @@ div#comments form span.form-link {}
 div#comments ul {list-style-type: none;}
 div#comments li {padding-left: 20px}
 div.comment {border-left: 1px dotted #ccc; margin-left: 5px; padding-left: 5px;}
+div.comment.roomy {margin: 15px 5px 0 5px; border-top: 1px dotted #ccc; padding:10px 5px;}

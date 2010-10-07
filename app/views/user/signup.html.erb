@@ -1,0 +1,17 @@
+<%- content_for :body_style do;-%>id='user'<%- end -%>
+
+<h1>Sign Up</h1>
+<div class="section">
+  <%- form_tag :action=> "signup" do -%>
+  <%= error_messages_for 'user' %>
+  <ul>
+    <li><label for="user_email">Email:</label><br/>
+      <%= text_field "user", "email",  :size => 20 %></li>
+    <li><label for="user_password">Password:</label><br/>
+      <%= password_field "user", "password", :size => 20 %></li>
+    <li><label for="user_password_confirmation">Password Confirmation:</label><br/>
+      <%= password_field "user", "password_confirmation", :size => 20 %></li>
+    <li><%= submit_tag "Sign Up" %></li>
+  </ul>
+  <%- end -%>
+</div>

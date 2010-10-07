@@ -1,7 +1,11 @@
 <div id="comment_<%= comment.id %>" class="comment">
   <h1><%= comment.title %></h1>
   <%= comment.content %>
-  <%= render :partial => 'comment/comment_form', :locals => {:comment => comment}%>
+  <%- if session[:user] -%>
+    <%= render :partial => 'comment/comment_form', :locals => {:comment => comment}%>
+  <%- else -%>
+    <p>Login or <%= link_to "sign up", :controller => 'user', :action => 'login' %> to comment.</p>
+  <%- end -%>
   <ul>
   <%- comment.children.each do |c| -%>
     <li><%= render :partial => 'comment/comment', :locals => {:comment => c} %></li>

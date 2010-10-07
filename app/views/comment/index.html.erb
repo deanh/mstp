@@ -1,7 +1,8 @@
 <div id="comments">
+  <h1>Recently</h1>
   <%- @comments.each do |comment| -%>
-    <div id="comment_<%= comment.id %>" class="comment">
-      <h1><%= comment.title %></h1>
+    <div id="comment_<%= comment.id %>" class="comment roomy">
+      <h2><%= comment.title %></h2>
       <%= comment.content %>
       <ul>
     </div>

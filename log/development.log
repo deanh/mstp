@@ -4029,3 +4029,1647 @@ Completed in 19ms (View: 11, DB: 1) | 200 OK [http://localhost/comment/show/3]
   [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26616868381) LIMIT 1[0m
   [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26616839710) LIMIT 1[0m
   [4;36;1mComment Load (0.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26616832470) LIMIT 1[0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618526707) LIMIT 1[0m
+  [4;35;1mComment Create (0.7ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:14:40', 'At Thu, 07 Oct 2010 04:11:49 +0000 from @ChinWonder', '2010-10-07 04:14:40', 26618526707, NULL, 'Buzz...buzz...buzz...I want to be a bee in The New Hive. #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618251189) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617842678) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617659397) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617655563) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617480312) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617248391) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617192663) LIMIT 1[0m
+  [4;35;1mComment Load (0.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617151480) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617121278) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617112468) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617112432) LIMIT 1[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26616962574) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26616868381) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26616839710) LIMIT 1[0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618763219) LIMIT 1[0m
+  [4;35;1mComment Create (0.6ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:17:04', 'At Thu, 07 Oct 2010 04:15:35 +0000 from @dtkwakye', '2010-10-07 04:17:04', 26618763219, NULL, 'what would be the measure if success with this space? How would you quantify that? #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618756780) LIMIT 1[0m
+  [4;35;1mComment Create (0.3ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:17:04', 'At Thu, 07 Oct 2010 04:15:29 +0000 from @ALovan', '2010-10-07 04:17:04', 26618756780, NULL, 'is interested in seeing the new Research Commons opening tomorrow on UW campus (even if I can''t eat my dinner there). #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618526707) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618251189) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617842678) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617659397) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617655563) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617480312) LIMIT 1[0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617248391) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617192663) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617151480) LIMIT 1[0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617121278) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617112468) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617112432) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26616962574) LIMIT 1[0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619142820) LIMIT 1[0m
+  [4;35;1mComment Create (74.5ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:22:33', 'At Thu, 07 Oct 2010 04:21:43 +0000 from @Dgatsos', '2010-10-07 04:22:33', 26619142820, NULL, 'Projected #SM me think of stores like #Metropark, with displays of a constant feed of tweets about the store -encourages users #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619028769) LIMIT 1[0m
+  [4;35;1mComment Create (0.3ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:22:34', 'At Thu, 07 Oct 2010 04:19:53 +0000 from @lynnewatanabe', '2010-10-07 04:22:34', 26619028769, NULL, 'Best learning commons place I''ve seen was in Google, Cupertino. Great place to hangout/talk/eat... #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619008215) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618929595) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618883652) LIMIT 1[0m
+  [4;35;1mComment Create (0.3ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:22:34', 'At Thu, 07 Oct 2010 04:17:31 +0000 from @MikeBurlin', '2010-10-07 04:22:34', 26618883652, NULL, 'I dig the idea of creatively projecting social media in physical spaces - something to consider for the Research Commons? #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618817247) LIMIT 1[0m
+  [4;35;1mComment Create (0.3ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:22:34', 'At Thu, 07 Oct 2010 04:16:27 +0000 from @dominiqueb', '2010-10-07 04:22:34', 26618817247, NULL, 'Me too! @ChinWonder: Buzz...buzz...buzz...I want to be a bee in The New Hive. #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618763219) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618756780) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618526707) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618251189) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617842678) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617659397) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617655563) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617480312) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617248391) LIMIT 1[0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619297826) LIMIT 1[0m
+  [4;35;1mComment Create (0.5ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:25:57', 'At Thu, 07 Oct 2010 04:24:14 +0000 from @lynnewatanabe', '2010-10-07 04:25:57', 26619297826, NULL, 'Last client: Living Voters Guide http://bit.ly/8XUy8B #mcdmresearch #mcdm', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619286354) LIMIT 1[0m
+  [4;35;1mComment Create (0.3ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:25:57', 'At Thu, 07 Oct 2010 04:24:03 +0000 from @thortolo', '2010-10-07 04:25:57', 26619286354, NULL, 'Diane, you had me at hello! #mcdmresearch I''m in.', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619260086) LIMIT 1[0m
+  [4;35;1mComment Create (0.4ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:25:57', 'At Thu, 07 Oct 2010 04:23:38 +0000 from @kangting21', '2010-10-07 04:25:57', 26619260086, NULL, 'wanna go to the zoo...anyone else in? #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619142820) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619028769) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619008215) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618929595) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618883652) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618817247) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618763219) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618756780) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618526707) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618251189) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617842678) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26617659397) LIMIT 1[0m
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 21:26:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 111ms (View: 96, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 21:27:03) [GET]
+  Parameters: {"action"=>"show", "id"=>"59", "controller"=>"comment"}
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 59) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 59) ORDER BY created_at[0m
+Rendered comment/_comment (5.6ms)
+Completed in 15ms (View: 7, DB: 1) | 200 OK [http://localhost/comment/show/59]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 21:27:24) [GET]
+  Parameters: {"action"=>"show", "id"=>"47", "controller"=>"comment"}
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 47) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 47) ORDER BY created_at[0m
+Rendered comment/_comment (5.6ms)
+Completed in 17ms (View: 7, DB: 1) | 200 OK [http://localhost/comment/show/47]
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619510250) LIMIT 1[0m
+  [4;35;1mComment Create (0.6ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:29:08', 'At Thu, 07 Oct 2010 04:27:33 +0000 from @jeffbarr', '2010-10-07 04:29:08', 26619510250, NULL, '#mcdmresearch - The &quot;login&quot; page is white-on-white text, select it to see it!', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619493744) LIMIT 1[0m
+  [4;35;1mComment Create (0.3ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:29:08', 'At Thu, 07 Oct 2010 04:27:17 +0000 from @tundralove', '2010-10-07 04:29:08', 26619493744, NULL, 'RT @evanwest: I almost forgot, thanks for the pizza! #mcdm #mcdmresearch', 'twitter')[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619445401) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619426161) LIMIT 1[0m
+  [4;36;1mComment Create (0.3ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 04:29:08', 'At Thu, 07 Oct 2010 04:26:13 +0000 from @evanwest', '2010-10-07 04:29:08', 26619426161, NULL, 'I almost forgot, thanks for the pizza! #mcdm #mcdmresearch', 'twitter')[0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619297826) LIMIT 1[0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619286354) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619260086) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619142820) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619028769) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26619008215) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618929595) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618883652) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618817247) LIMIT 1[0m
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618763219) LIMIT 1[0m
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26618756780) LIMIT 1[0m
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:26:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (6.1ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 59ms (View: 39, DB: 6) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:26:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 42ms (View: 27, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:27:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 47ms (View: 32, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:28:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (64.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 109ms (View: 34, DB: 65) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:28:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 47ms (View: 32, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:29:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 104ms (View: 28, DB: 5) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:30:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 41ms (View: 27, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:30:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 112ms (View: 97, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:30:23) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"comment"}
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.3ms)
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+Rendered comment/_comment_form (2.0ms)
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 68) ORDER BY created_at[0m
+Rendered comment/_comment (3.5ms)
+Rendered comment/_comment (9.6ms)
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/comment/show/3]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:31:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 46ms (View: 31, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:32:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 104ms (View: 90, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:33:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 42ms (View: 27, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:34:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 110ms (View: 95, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:34:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (7.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 45ms (View: 27, DB: 7) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:34:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.2ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 44ms (View: 29, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:35:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Completed in 103ms (View: 27, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:36:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+
+ActionView::TemplateError (Missing template user/_login_bar.erb in view path app/views) on line #12 of app/views/layouts/application.html.erb:
+9:     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+10:   </head>
+11:   <body>
+12:     <div id="login"><%= render :partial => 'user/login_bar' %></div>
+13:     <div id="main">
+14:       <%= yield %>
+15:     </div>
+
+    app/views/layouts/application.html.erb:12
+
+Rendered rescues/_trace (62.3ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:38:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.0ms)
+Completed in 51ms (View: 36, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:38:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.2ms)
+Completed in 45ms (View: 30, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:39:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.3ms)
+Completed in 43ms (View: 28, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:40:47) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.3ms)
+Completed in 107ms (View: 92, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:41:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.5ms)
+Completed in 48ms (View: 34, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:41:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.6ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.7ms)
+Completed in 105ms (View: 91, DB: 5) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:42:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.6ms)
+Completed in 44ms (View: 29, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:43:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.9ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.6ms)
+Completed in 44ms (View: 29, DB: 5) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:44:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.7ms)
+Completed in 44ms (View: 29, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:44:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.7ms)
+Completed in 50ms (View: 34, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:44:26) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"index", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "controller"=>"comment", "password"=>"[FILTERED]", "email"=>""}
+  [4;36;1mComment Load (4.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.5ms)
+Completed in 107ms (View: 92, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:44:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"13", "controller"=>"comment"}
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 13) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+Rendered comment/_comment (5.4ms)
+Rendered user/_login_bar (1.6ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/13]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:44:35) [GET]
+  Parameters: {"action"=>"show", "id"=>"13", "controller"=>"comment"}
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 13) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+Rendered comment/_comment (5.6ms)
+Rendered user/_login_bar (1.5ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/13]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:45:04) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"index", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "controller"=>"comment", "password"=>"[FILTERED]", "email"=>""}
+  [4;35;1mComment Load (4.7ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.5ms)
+Completed in 45ms (View: 28, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:45:07) [GET]
+  Parameters: {"action"=>"show", "id"=>"10", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 10) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.3ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+Rendered comment/_comment (6.0ms)
+Rendered user/_login_bar (1.6ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/10]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:45:12) [GET]
+  Parameters: {"action"=>"show", "id"=>"10", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 10) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.5ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+Rendered comment/_comment (5.8ms)
+Rendered user/_login_bar (1.6ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/10]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:45:52) [GET]
+  Parameters: {"action"=>"show", "id"=>"10", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 10) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.3ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+Rendered comment/_comment (5.9ms)
+Rendered user/_login_bar (1.6ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/10]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:46:17) [GET]
+  Parameters: {"action"=>"show", "id"=>"10", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 10) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+Rendered comment/_comment (5.5ms)
+Rendered user/_login_bar (1.6ms)
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/10]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:46:24) [GET]
+  Parameters: {"action"=>"show", "id"=>"13", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 13) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.4ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+Rendered comment/_comment (5.9ms)
+Rendered user/_login_bar (1.7ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/13]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:47:57) [GET]
+  Parameters: {"action"=>"show", "id"=>"29", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 29) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 29) ORDER BY created_at[0m
+Rendered comment/_comment (5.6ms)
+Rendered user/_login_bar (1.5ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/29]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:49:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.8ms)
+Completed in 117ms (View: 31, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:50:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.9ms)
+Completed in 44ms (View: 29, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:51:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.8ms)
+Completed in 106ms (View: 92, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 22:52:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.8ms)
+Completed in 44ms (View: 29, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:52:47) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.3ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.9ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 56) ORDER BY created_at[0m
+Rendered comment/_comment (3.3ms)
+Rendered comment/_comment (9.6ms)
+Rendered user/_login_bar (1.6ms)
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:53:47) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.4ms)
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.8ms)
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 56) ORDER BY created_at[0m
+Rendered comment/_comment (3.2ms)
+Rendered comment/_comment (9.3ms)
+Rendered user/_login_bar (1.6ms)
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:54:47) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.3ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.9ms)
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 56) ORDER BY created_at[0m
+Rendered comment/_comment (3.4ms)
+Rendered comment/_comment (9.5ms)
+Rendered user/_login_bar (1.5ms)
+Completed in 85ms (View: 12, DB: 1) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:55:48) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.4ms)
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 56) ORDER BY created_at[0m
+Rendered comment/_comment (3.2ms)
+Rendered comment/_comment (9.3ms)
+Rendered user/_login_bar (1.5ms)
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:56:48) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.8ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 56) ORDER BY created_at[0m
+Rendered comment/_comment (3.3ms)
+Rendered comment/_comment (9.2ms)
+Rendered user/_login_bar (1.5ms)
+Completed in 22ms (View: 12, DB: 1) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:57:48) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.8ms)
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 56) ORDER BY created_at[0m
+Rendered comment/_comment (3.1ms)
+Rendered comment/_comment (9.2ms)
+Rendered user/_login_bar (1.6ms)
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 22:58:48) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.3ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.8ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 56) ORDER BY created_at[0m
+Rendered comment/_comment (3.2ms)
+Rendered comment/_comment (9.2ms)
+Rendered user/_login_bar (1.5ms)
+Completed in 21ms (View: 12, DB: 1) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-06 22:59:14) [GET]
+
+ActionController::RoutingError (No route matches "/signup" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-06 22:59:19) [GET]
+
+ActionController::RoutingError (No route matches "/sign_up" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-06 22:59:28) [GET]
+
+ActionController::RoutingError (No route matches "/user/sign_up" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-06 22:59:35) [GET]
+
+ActionController::RoutingError (No route matches "/user/signup" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-06 23:07:21) [GET]
+
+ActionController::RoutingError (No route matches "/user/signup" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:07:41) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/user_controller.rb:5:in `new'
+  app/controllers/user_controller.rb:5:in `signup'
+
+Rendered rescues/_trace (60.7ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+Migrating to AddUidToComment (20101007025232)
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:08:01) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (2.4ms)
+Completed in 37ms (View: 27, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:08:42) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+
+ActionView::MissingTemplate (Missing layout layouts/signup.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:15:16) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+
+ActionView::MissingTemplate (Missing layout layouts/signup.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:15:30) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+
+ActionView::MissingTemplate (Missing layout layouts/signup.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:15:43) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (2.5ms)
+Completed in 88ms (View: 79, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:16:44) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (1.5ms)
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:17:13) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (1.5ms)
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:17:17) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (1.5ms)
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:18:17) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (1.6ms)
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:19:17) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (1.6ms)
+Completed in 15ms (View: 7, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:19:24) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (1.6ms)
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:20:06) [GET]
+  Parameters: {"action"=>"signup", "controller"=>"user"}
+Rendering template within layouts/application
+Rendering user/signup
+Rendered user/_login_bar (1.5ms)
+Completed in 80ms (View: 71, DB: 0) | 200 OK [http://localhost/user/signup]
+
+
+Processing UserController#signup (for 127.0.0.1 at 2010-10-06 23:20:43) [POST]
+  Parameters: {"commit"=>"Sign Up", "action"=>"signup", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "controller"=>"user", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"dean@ero.com"}}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'dean@ero.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.6ms)[0m   [0mINSERT INTO "users" ("salt", "name", "created_at", "crypted_password", "updated_at", "twitter_handle", "email") VALUES('pO552z7YFq', NULL, '2010-10-07 06:20:43', 'caae289908bf9f4b18fe6e82b791a0780b58505e', '2010-10-07 06:20:43', NULL, 'dean@ero.com')[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'dean@ero.com' AND "users".id <> 1) LIMIT 1[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE (email = 'dean@ero.com') LIMIT 1[0m
+Redirected to http://localhost:3000/comment
+Completed in 21ms (DB: 1) | 302 Found [http://localhost/user/signup]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:20:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.5ms)
+Completed in 69ms (View: 43, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:21:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.8ms)
+Completed in 112ms (View: 98, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:22:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.4ms)
+Completed in 49ms (View: 35, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:22:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.4ms)
+Completed in 117ms (View: 103, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:23:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.2ms)
+Completed in 57ms (View: 41, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:24:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.7ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.8ms)
+Completed in 119ms (View: 104, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:25:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.5ms)
+Completed in 55ms (View: 40, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing UserController#signout (for 127.0.0.1 at 2010-10-06 23:25:13) [GET]
+  Parameters: {"action"=>"signout", "controller"=>"user"}
+
+ActionController::UnknownAction (No action responded to signout. Actions: change_password, current_user, forgot_password, login, login_required, logout, and signup):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing UserController#signout (for 127.0.0.1 at 2010-10-06 23:25:29) [GET]
+  Parameters: {"action"=>"signout", "controller"=>"user"}
+
+ActionController::UnknownAction (No action responded to signout. Actions: change_password, current_user, forgot_password, login, login_required, logout, and signup):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:25:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.6ms)
+Completed in 55ms (View: 41, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:25:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.8ms)
+Completed in 112ms (View: 97, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2010-10-06 23:25:36) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+
+NameError (undefined local variable or method `redirect_to_stored' for #<UserController:0x25befd0>):
+  app/controllers/user_controller.rb:32:in `logout'
+
+Rendered rescues/_trace (46.7ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:27:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (3.4ms)
+Completed in 137ms (View: 112, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:28:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.6ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (3.0ms)
+Completed in 50ms (View: 35, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:29:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.0ms)
+Completed in 112ms (View: 93, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:29:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.9ms)
+Completed in 49ms (View: 34, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing UserController#login (for 127.0.0.1 at 2010-10-06 23:29:48) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "controller"=>"user", "password"=>"[FILTERED]", "email"=>"dean@ero.com"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/user_controller.rb:20:in `login'
+
+Rendered rescues/_trace (110.2ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:31:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+
+ActionView::TemplateError (undefined method `[]' for :user:Symbol) on line #6 of app/views/user/_login_bar.html.erb:
+3:   Hello, <%= session[:user].email %>. <%= link_to "Sign out", :controller => 'user', :action => 'logout' %>
+4: <%- else -%>
+5:   <%- form_tag '/user/login' do -%>
+6:     <%= label_tag :user[:email], "email: " %>
+7:     <%= text_field_tag :user[:email] %>
+8:     <%= label_tag :user[:password], "password: " %>
+9:     <%= password_field_tag :user[:password] %>
+
+    app/views/user/_login_bar.html.erb:6
+    app/views/user/_login_bar.html.erb:5
+    app/views/layouts/application.html.erb:12
+
+Rendered rescues/_trace (74.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:34:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (3.3ms)
+Completed in 119ms (View: 104, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:34:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.0ms)
+Completed in 45ms (View: 30, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing UserController#login (for 127.0.0.1 at 2010-10-06 23:34:47) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "controller"=>"user", "user"=>{"password"=>"[FILTERED]", "email"=>"dean@ero.com"}}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE (email = 'dean@ero.com') LIMIT 1[0m
+Redirected to http://localhost:3000/user/welcome
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/user/login]
+
+
+Processing UserController#welcome (for 127.0.0.1 at 2010-10-06 23:34:47) [GET]
+  Parameters: {"action"=>"welcome", "controller"=>"user"}
+
+ActionController::UnknownAction (No action responded to welcome. Actions: change_password, current_user, forgot_password, login, login_required, logout, redirect_to_stored, and signup):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:34:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.7ms)
+Completed in 115ms (View: 100, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:35:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.6ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.3ms)
+Completed in 52ms (View: 36, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:36:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.5ms)
+Completed in 50ms (View: 35, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:37:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.7ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.2ms)
+Completed in 51ms (View: 36, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2010-10-06 23:38:41) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/comment
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/user/logout]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:38:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.0ms)
+Completed in 44ms (View: 29, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing UserController#login (for 127.0.0.1 at 2010-10-06 23:38:49) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "controller"=>"user", "user"=>{"password"=>"[FILTERED]", "email"=>"dean@ero.com"}}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE (email = 'dean@ero.com') LIMIT 1[0m
+Redirected to http://localhost:3000/comment
+Completed in 74ms (DB: 1) | 302 Found [http://localhost/user/login]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:38:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.3ms)
+Completed in 51ms (View: 36, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:39:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.3ms)
+Completed in 50ms (View: 36, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:40:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.2ms)
+Completed in 113ms (View: 36, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:41:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.4ms)
+Completed in 50ms (View: 36, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:42:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.6ms)
+Completed in 113ms (View: 99, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:43:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.5ms)
+Completed in 50ms (View: 36, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:44:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.5ms)
+Completed in 113ms (View: 98, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:45:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.4ms)
+Completed in 51ms (View: 36, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:46:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.5ms)
+Completed in 50ms (View: 36, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:47:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.2ms)
+Completed in 50ms (View: 35, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:48:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.4ms)
+Completed in 50ms (View: 36, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:49:25) [GET]
+  Parameters: {"action"=>"show", "id"=>"18", "controller"=>"comment"}
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 18) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (9.7ms)
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (17.8ms)
+Rendered user/_login_bar (2.7ms)
+Completed in 101ms (View: 93, DB: 1) | 200 OK [http://localhost/comment/show/18]
+
+
+Processing CommentController#create (for 127.0.0.1 at 2010-10-06 23:49:31) [POST]
+  Parameters: {"parent"=>"18", "commit"=>"Save", "action"=>"create", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "content"=>"alkjsdfhhklajsdfjhklasdflkjhasdflkhj", "controller"=>"comment", "top"=>"18"}
+  [4;35;1mComment Create (0.7ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 06:49:31', NULL, '2010-10-07 06:49:31', NULL, 18, 'alkjsdfhhklajsdfjhklasdflkjhasdflkhj', NULL)[0m
+Redirected to http://localhost:3000/comment/show/18
+Completed in 18ms (DB: 1) | 302 Found [http://localhost/comment/create]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:49:31) [GET]
+  Parameters: {"action"=>"show", "id"=>"18", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 18) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (8.0ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment_form (2.0ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 83) ORDER BY created_at[0m
+Rendered comment/_comment (3.4ms)
+Rendered comment/_comment (15.1ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 27ms (View: 19, DB: 1) | 200 OK [http://localhost/comment/show/18]
+
+
+Processing CommentController#create (for 127.0.0.1 at 2010-10-06 23:49:37) [POST]
+  Parameters: {"parent"=>"83", "commit"=>"Save", "action"=>"create", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "content"=>"jsadjklasdfkjasdflhjk", "controller"=>"comment", "top"=>"18"}
+  [4;35;1mComment Create (0.5ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 06:49:37', NULL, '2010-10-07 06:49:37', NULL, 83, 'jsadjklasdfkjasdflhjk', NULL)[0m
+Redirected to http://localhost:3000/comment/show/18
+Completed in 18ms (DB: 0) | 302 Found [http://localhost/comment/create]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:49:37) [GET]
+  Parameters: {"action"=>"show", "id"=>"18", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 18) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (8.5ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.9ms)
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 83) ORDER BY created_at[0m
+Rendered comment/_comment_form (2.1ms)
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 84) ORDER BY created_at[0m
+Rendered comment/_comment (3.7ms)
+Rendered comment/_comment (7.7ms)
+Rendered comment/_comment (84.2ms)
+Rendered user/_login_bar (2.7ms)
+Completed in 97ms (View: 88, DB: 1) | 200 OK [http://localhost/comment/show/18]
+
+
+Processing CommentController#create (for 127.0.0.1 at 2010-10-06 23:49:43) [POST]
+  Parameters: {"parent"=>"83", "commit"=>"Save", "action"=>"create", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "content"=>"jkladfsjklfsadjklasdfkl;", "controller"=>"comment", "top"=>"18"}
+  [4;36;1mComment Create (0.5ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 06:49:43', NULL, '2010-10-07 06:49:43', NULL, 83, 'jkladfsjklfsadjklasdfkl;', NULL)[0m
+Redirected to http://localhost:3000/comment/show/18
+Completed in 18ms (DB: 0) | 302 Found [http://localhost/comment/create]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:49:43) [GET]
+  Parameters: {"action"=>"show", "id"=>"18", "controller"=>"comment"}
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 18) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (7.8ms)
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 83) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.8ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 84) ORDER BY created_at[0m
+Rendered comment/_comment (3.2ms)
+Rendered comment/_comment_form (1.8ms)
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 85) ORDER BY created_at[0m
+Rendered comment/_comment (3.3ms)
+Rendered comment/_comment (10.6ms)
+Rendered comment/_comment (22.1ms)
+Rendered user/_login_bar (2.8ms)
+Completed in 35ms (View: 26, DB: 2) | 200 OK [http://localhost/comment/show/18]
+
+
+Processing CommentController#create (for 127.0.0.1 at 2010-10-06 23:49:49) [POST]
+  Parameters: {"parent"=>"18", "commit"=>"Save", "action"=>"create", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "content"=>"fjklsdfajkldfsjkladfs", "controller"=>"comment", "top"=>"18"}
+  [4;36;1mComment Create (0.5ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "uid", "parent_id", "content", "source") VALUES('2010-10-07 06:49:49', NULL, '2010-10-07 06:49:49', NULL, 18, 'fjklsdfajkldfsjkladfs', NULL)[0m
+Redirected to http://localhost:3000/comment/show/18
+Completed in 19ms (DB: 0) | 302 Found [http://localhost/comment/create]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:49:49) [GET]
+  Parameters: {"action"=>"show", "id"=>"18", "controller"=>"comment"}
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 18) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (7.9ms)
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 83) ORDER BY created_at[0m
+Rendered comment/_comment_form (69.0ms)
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 84) ORDER BY created_at[0m
+Rendered comment/_comment (70.8ms)
+Rendered comment/_comment_form (2.0ms)
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 85) ORDER BY created_at[0m
+Rendered comment/_comment (3.6ms)
+Rendered comment/_comment (78.4ms)
+Rendered comment/_comment_form (1.9ms)
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 86) ORDER BY created_at[0m
+Rendered comment/_comment (3.3ms)
+Rendered comment/_comment (93.8ms)
+Rendered user/_login_bar (2.7ms)
+Completed in 106ms (View: 97, DB: 2) | 200 OK [http://localhost/comment/show/18]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:49:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.4ms)
+Completed in 51ms (View: 36, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:50:24) [GET]
+  Parameters: {"action"=>"show", "id"=>"82", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 82) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (8.0ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 82) ORDER BY created_at[0m
+Rendered comment/_comment (11.3ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 24ms (View: 15, DB: 1) | 200 OK [http://localhost/comment/show/82]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:51:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.0ms)
+Completed in 140ms (View: 122, DB: 4) | 200 OK [http://localhost/comment/]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2010-10-06 23:51:31) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/comment
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/user/logout]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:51:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.2ms)
+Completed in 44ms (View: 30, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:51:54) [GET]
+  Parameters: {"action"=>"show", "id"=>"22", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 22) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.2ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 22) ORDER BY created_at[0m
+Rendered comment/_comment (5.6ms)
+Rendered user/_login_bar (1.7ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/22]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:52:02) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.3ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (5.6ms)
+Rendered user/_login_bar (1.8ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:52:19) [GET]
+  Parameters: {"action"=>"show", "id"=>"26", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 26) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.3ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 26) ORDER BY created_at[0m
+Rendered comment/_comment (5.8ms)
+Rendered user/_login_bar (1.7ms)
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/26]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:53:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.0ms)
+Completed in 46ms (View: 30, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:54:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.0ms)
+Completed in 43ms (View: 29, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:55:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.0ms)
+Completed in 45ms (View: 30, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:56:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (2.1ms)
+Completed in 44ms (View: 29, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:56:49) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.1ms)
+Rendered user/_login_bar (1.7ms)
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:57:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.0ms)
+Rendered user/_login_bar (2.1ms)
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing UserController#login (for 127.0.0.1 at 2010-10-06 23:57:26) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "controller"=>"user", "user"=>{"password"=>"[FILTERED]", "email"=>"dean@ero.com"}}
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE (email = 'dean@ero.com') LIMIT 1[0m
+Redirected to http://localhost:3000/comment
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/user/login]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:57:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.4ms)
+Completed in 51ms (View: 37, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-06 23:57:27) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.1ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (11.2ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 15, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:58:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.2ms)
+Completed in 50ms (View: 36, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-06 23:59:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (4.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.4ms)
+Completed in 50ms (View: 35, DB: 4) | 200 OK [http://localhost/comment]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2010-10-07 00:00:02) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"user"}
+Redirected to http://localhost:3000/comment
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/user/logout]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-07 00:00:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (1.7ms)
+Completed in 45ms (View: 30, DB: 5) | 200 OK [http://localhost/comment]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:00:05) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;35;1mComment Load (0.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (3.4ms)
+Rendered user/_login_bar (1.7ms)
+Completed in 15ms (View: 7, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing UserController#login (for 127.0.0.1 at 2010-10-07 00:00:17) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"reFCnzI/5nGb5YJQkS09k+972yIDOGFXU8rvVfsMq2g=", "controller"=>"user", "user"=>{"password"=>"[FILTERED]", "email"=>"dean@ero.com"}}
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT * FROM "users" WHERE (email = 'dean@ero.com') LIMIT 1[0m
+Redirected to http://localhost:3000/comment/show/1
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/user/login]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:00:17) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.0ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.3ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:01:17) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.0ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.1ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:02:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.0ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.3ms)
+Rendered user/_login_bar (2.6ms)
+Completed in 89ms (View: 10, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:03:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.2ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:04:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.2ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:05:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.2ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:06:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.0ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.2ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:07:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.2ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:08:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (2.0ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.3ms)
+Rendered user/_login_bar (2.6ms)
+Completed in 24ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:09:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.2ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 22ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-07 00:10:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (1.9ms)
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (5.1ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/comment/show/1]

@@ -1,0 +1,13 @@
+<div id="login-bar">
+<%- if session[:user] -%>
+  Hello, <%= session[:user].email %>. <%= link_to "Sign out", :controller => 'user', :action => 'logout' %>
+<%- else -%>
+  <%- form_tag '/user/login' do -%>
+    <%= label_tag "user_email", "email: " %>
+    <%= text_field "user", "email" %>
+    <%= label_tag "user_email", "password: " %>
+    <%= password_field "user", "password" %>
+    <%= submit_tag "Login" %>
+  <%- end -%>
+<%- end -%>
+</div>
