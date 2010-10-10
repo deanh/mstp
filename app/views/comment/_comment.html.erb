@@ -4,7 +4,7 @@
   <%- if session[:user] -%>
     <%= render :partial => 'comment/comment_form', :locals => {:comment => comment}%>
   <%- else -%>
-    <p>Login or <%= link_to "sign up", :controller => 'user', :action => 'login' %> to comment.</p>
+    <p>Login or <%= link_to "sign up", :controller => 'user', :action => 'signup' %> to comment.</p>
   <%- end -%>
   <ul>
   <%- comment.children.each do |c| -%>
