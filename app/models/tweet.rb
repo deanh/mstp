@@ -16,7 +16,7 @@ class Tweet
     c.source              = "twitter"
     c.twitter_handle      = tweet.from_user
     c.twitter_response_to = tweet.to_user
-    c.uid                 = tweet.id
+    c.uid                 = tweet.id.to_s
     if u = User.find_by_twitter_handle(c.twitter_handle)
       c.user = u
     end
