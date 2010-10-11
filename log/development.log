@@ -14042,3 +14042,1457 @@ Rendering comment/index
   [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
 Rendered user/_login_bar (14.4ms)
 Completed in 317ms (View: 218, DB: 41) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:52:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.5ms)
+Completed in 198ms (View: 127, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:52:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (6.6ms)
+Completed in 157ms (View: 106, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:53:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.6ms)
+Completed in 320ms (View: 249, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:53:28) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (7.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (2.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (7.6ms)
+Completed in 163ms (View: 108, DB: 24) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:54:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.0ms)
+Completed in 189ms (View: 121, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:54:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (7.1ms)
+Completed in 156ms (View: 106, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:55:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.4ms)
+Completed in 239ms (View: 164, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:56:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (12.0ms)
+Completed in 203ms (View: 124, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:57:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.1ms)
+Completed in 345ms (View: 262, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:58:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (10.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.0ms)
+Completed in 207ms (View: 130, DB: 27) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 00:59:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (7.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (12.6ms)
+Completed in 209ms (View: 128, DB: 23) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:00:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (2.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (26.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (13.7ms)
+Completed in 336ms (View: 233, DB: 48) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:01:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (12.6ms)
+Completed in 193ms (View: 119, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:02:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (13.3ms)
+Completed in 192ms (View: 122, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:03:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (10.9ms)
+Completed in 341ms (View: 259, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:04:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (7.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (12.9ms)
+Completed in 233ms (View: 141, DB: 24) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:05:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (2.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (12.4ms)
+Completed in 191ms (View: 121, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:06:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (12.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (18.4ms)
+Completed in 437ms (View: 321, DB: 30) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:07:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (7.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (10.6ms)
+Completed in 196ms (View: 118, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:08:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (13.0ms)
+Completed in 199ms (View: 118, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:09:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (29.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (14.6ms)
+Completed in 343ms (View: 241, DB: 48) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:10:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (8.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.0ms)
+Completed in 201ms (View: 121, DB: 23) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:11:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (13.1ms)
+Completed in 189ms (View: 121, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:12:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (2.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (27.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.1ms)
+Completed in 349ms (View: 236, DB: 49) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:13:28) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.4ms)
+Completed in 194ms (View: 122, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:14:28) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (13.6ms)
+Completed in 188ms (View: 121, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:14:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (5.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (14.1ms)
+Completed in 336ms (View: 261, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:15:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (11.8ms)
+Completed in 199ms (View: 126, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:16:27) [GET]
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"comment"}
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.7ms)
+  [4;35;1mComment Load (1.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.6ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+Rendered comment/_comment (25.5ms)
+Rendered comment/_comment (48.8ms)
+Rendered user/_login_bar (3.4ms)
+Completed in 110ms (View: 56, DB: 4) | 200 OK [http://localhost/comment/show/5]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:17:27) [GET]
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"comment"}
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.9ms)
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.5ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+Rendered comment/_comment (26.8ms)
+Rendered comment/_comment (50.6ms)
+Rendered user/_login_bar (2.4ms)
+Completed in 110ms (View: 56, DB: 3) | 200 OK [http://localhost/comment/show/5]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:18:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"5", "controller"=>"comment"}
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (7.5ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.6ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+Rendered comment/_comment (28.1ms)
+Rendered comment/_comment (53.4ms)
+Rendered user/_login_bar (2.1ms)
+Completed in 260ms (View: 58, DB: 4) | 200 OK [http://localhost/comment/show/5]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:18:32) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.9ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.6ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (27.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (12.8ms)
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (22.5ms)
+Rendered comment/_comment (76.5ms)
+Rendered user/_login_bar (3.3ms)
+Completed in 143ms (View: 83, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:19:32) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.7ms)
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.3ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (26.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.4ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (14.0ms)
+Rendered comment/_comment (65.0ms)
+Rendered user/_login_bar (3.5ms)
+Completed in 122ms (View: 71, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:20:33) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.7ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (1.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.2ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (32.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.5ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (23.1ms)
+Rendered comment/_comment (77.4ms)
+Rendered user/_login_bar (8.6ms)
+Completed in 288ms (View: 236, DB: 5) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:21:14) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (9.1ms)
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (9.1ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (27.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.3ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (14.8ms)
+Rendered comment/_comment (67.8ms)
+Rendered user/_login_bar (3.8ms)
+Completed in 132ms (View: 75, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:21:16) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (9.7ms)
+  [4;35;1mComment Load (1.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (9.3ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (28.0ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.7ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (14.3ms)
+Rendered comment/_comment (68.6ms)
+Rendered user/_login_bar (3.5ms)
+Completed in 130ms (View: 75, DB: 5) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:21:41) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.8ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (1.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.6ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (27.0ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.7ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (16.7ms)
+Rendered comment/_comment (67.3ms)
+Rendered user/_login_bar (2.1ms)
+Completed in 131ms (View: 73, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:21:43) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (7.6ms)
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (1.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.7ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (28.0ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (9.6ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (17.8ms)
+Rendered comment/_comment (71.2ms)
+Rendered user/_login_bar (2.3ms)
+Completed in 274ms (View: 76, DB: 5) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:21:54) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (8.4ms)
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.1ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (28.0ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.2ms)
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (15.6ms)
+Rendered comment/_comment (70.3ms)
+Rendered user/_login_bar (3.9ms)
+Completed in 134ms (View: 78, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:21:56) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (8.3ms)
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.8ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (28.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.7ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (14.3ms)
+Rendered comment/_comment (71.1ms)
+Rendered user/_login_bar (2.2ms)
+Completed in 134ms (View: 76, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:22:08) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (7.1ms)
+  [4;35;1mComment Load (2.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (3.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (18.9ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (252.2ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.7ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (18.9ms)
+Rendered comment/_comment (296.2ms)
+Rendered user/_login_bar (2.5ms)
+Completed in 362ms (View: 300, DB: 8) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:22:10) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (7.1ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.0ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (27.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.0ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (17.1ms)
+Rendered comment/_comment (67.1ms)
+Rendered user/_login_bar (2.3ms)
+Completed in 135ms (View: 73, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:22:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.9ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.7ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (26.9ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.0ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (16.7ms)
+Rendered comment/_comment (66.0ms)
+Rendered user/_login_bar (2.2ms)
+Completed in 126ms (View: 71, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:22:57) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (11.1ms)
+  [4;35;1mComment Load (1.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.8ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (26.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.5ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (14.0ms)
+Rendered comment/_comment (67.3ms)
+Rendered user/_login_bar (4.7ms)
+Completed in 135ms (View: 75, DB: 5) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:23:26) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (11.9ms)
+  [4;35;1mComment Load (2.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (15.0ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (48.0ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (9.5ms)
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (26.8ms)
+Rendered comment/_comment (132.5ms)
+Rendered user/_login_bar (3.1ms)
+Completed in 228ms (View: 142, DB: 7) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:23:36) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (10.3ms)
+  [4;35;1mComment Load (1.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (9.9ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (28.0ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.7ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (14.2ms)
+Rendered comment/_comment (68.5ms)
+Rendered user/_login_bar (5.7ms)
+Completed in 133ms (View: 77, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:24:36) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.9ms)
+  [4;35;1mComment Load (2.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.2ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (30.6ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.6ms)
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (17.2ms)
+Rendered comment/_comment (78.6ms)
+Rendered user/_login_bar (4.6ms)
+Completed in 140ms (View: 86, DB: 5) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:25:36) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (2.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (10.4ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (10.0ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (29.9ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.9ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (15.1ms)
+Rendered comment/_comment (72.5ms)
+Rendered user/_login_bar (3.0ms)
+Completed in 285ms (View: 81, DB: 5) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:26:06) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (9.6ms)
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (9.3ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (27.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.1ms)
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (17.3ms)
+Rendered comment/_comment (71.3ms)
+Rendered user/_login_bar (3.7ms)
+Completed in 137ms (View: 78, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:26:27) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (9.7ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (9.4ms)
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (29.7ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.2ms)
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (17.4ms)
+Rendered comment/_comment (73.1ms)
+Rendered user/_login_bar (3.5ms)
+Completed in 139ms (View: 80, DB: 5) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:26:28) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (9.4ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (9.3ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (27.2ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.9ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (14.4ms)
+Rendered comment/_comment (67.6ms)
+Rendered user/_login_bar (3.3ms)
+Completed in 135ms (View: 73, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:27:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (7.1ms)
+  [4;35;1mComment Load (1.3ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (1.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (8.4ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (28.8ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.0ms)
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (26.8ms)
+Rendered comment/_comment (79.8ms)
+Rendered user/_login_bar (4.2ms)
+Completed in 144ms (View: 88, DB: 5) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:27:35) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (2.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.9ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (1.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.0ms)
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (27.1ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (13.8ms)
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (24.8ms)
+Rendered comment/_comment (76.0ms)
+Rendered user/_login_bar (3.6ms)
+Completed in 141ms (View: 83, DB: 6) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:28:05) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"comment"}
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (8.9ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (7.1ms)
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+Rendered comment/_comment (26.8ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.6ms)
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+Rendered comment/_comment (14.5ms)
+Rendered comment/_comment (65.8ms)
+Rendered user/_login_bar (9.8ms)
+Completed in 146ms (View: 93, DB: 4) | 200 OK [http://localhost/comment/show/2]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:28:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (7.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (10.7ms)
+Completed in 330ms (View: 118, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:28:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (7.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (17.2ms)
+Completed in 211ms (View: 139, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-11 01:28:32) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+Rendered comment/_comment_form (6.9ms)
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendered comment/_comment_form (6.6ms)
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+Rendered comment/_comment (27.9ms)
+Rendered comment/_comment (49.6ms)
+Rendered user/_login_bar (2.1ms)
+Completed in 117ms (View: 59, DB: 4) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-11 01:28:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) ORDER BY created_at DESC[0m
+Rendering template within layouts/application
+Rendering comment/index
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 21) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 20) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.1ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 16) ORDER BY created_at[0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 2) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 18) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 19) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 4) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 5) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 17) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 8) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 9) ORDER BY created_at[0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 10) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 11) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 12) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 13) ORDER BY created_at[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 14) ORDER BY created_at[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 15) ORDER BY created_at[0m
+Rendered user/_login_bar (12.0ms)
+Completed in 335ms (View: 118, DB: 22) | 200 OK [http://localhost/]

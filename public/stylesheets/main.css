@@ -29,6 +29,8 @@ div#login {position: fixed; top: 0; left: 0; height: 40px;
     width: 100%; background-color: #000; color: #fff;
     background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));}
 div#login #login-bar {padding: 10px; position: fixed; right: 20px;}
+div#login #login-bar span#home {position: fixed; left: 20px; font-weight: bolder;}
+div#login #login-bar span#home a {color: #fff247; text-decoration: none;}
 div#main {margin: auto; width: 70%;}
 div#comments {margin: 0 10px; padding: 50px 5px; 
               background-color: #fff; height: 100%; /* border: 1px dotted #0f7a44; */}
@@ -42,5 +44,6 @@ div.comment {border-left: 1px dotted #ccc; margin: 15px 5px 0 5px; border-top: 1
 div.comment.roomy {margin: 15px 5px 0 5px; border-top: 1px dotted #ccc;}
 div.comment p.reply {margin: 10px; 5px;}
 div.comment p.comment-count {margin: 10px 0; font-size: 1em; font-weight: bold;}
+div.comment div.comment {-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;}
 
 dt {float: left; width: 7em;}

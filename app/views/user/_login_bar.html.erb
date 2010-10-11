@@ -1,4 +1,5 @@
 <div id="login-bar">
+  <span id="home"><%= link_to "Home", "/" %></span>
 <%- if session[:user] -%>
   <%= link_to "Start New Thread", :controller => 'comment', :action => 'new_thread' %>
   Logged in as <%= session[:user].email %>. <%= link_to "Sign out", :controller => 'user', :action => 'logout' %>
