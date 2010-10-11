@@ -5,7 +5,7 @@ class AddUidToComment < ActiveRecord::Migration
   end
 
   def self.down
-    remove_column :comments, :uid
-    remove_column :comments, :source
+#    remove_column :comments, :uid
+#    remove_column :comments, :source
   end
 end

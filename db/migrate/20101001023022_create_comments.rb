@@ -10,5 +10,6 @@ class CreateComments < ActiveRecord::Migration
 
   def self.down
     drop_table :comments
+    drop_table :users
   end
 end
