@@ -11,5 +11,8 @@ class ExtendedMetadata1 < ActiveRecord::Migration
     remove_column :comments, :user_id
     remove_column :comments, :twitter_handle
     remove_column :comments, :twitter_response_to
+    drop_table :comments
+    drop_table :users
+    
   end
 end
