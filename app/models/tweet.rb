@@ -23,10 +23,10 @@ class Tweet
 
     # a kind of lame attempt to thread
     if c.twitter_response_to
-        parent = Comment.find(:conditions => "twitter_handle = '#{c.twitter_response_to}' and parent_id is NULL",
+        parent = Comment.find(:all, :conditions => "twitter_handle = '#{c.twitter_response_to}' and parent_id is NULL",
                               :order => "created_at DESC",
                               :limit => 1)
-      c.parent = parent if parent
+      c.parent = parent.first if parent.first
     end
     puts c.content
     c.save

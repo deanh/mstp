@@ -4,10 +4,10 @@
     from: 
     <%- unless comment.user.blank? -%>
       <%= link_to "@#{comment.user.name}", :controller => 'user', :id => comment.user.id %>
-    <%- end ->
+    <%- end -%>
     <%- unless comment.twitter_handle.blank? -%>
       <%= link_to "@#{comment.twitter_handle}", "http://twitter.com/#{comment.twitter_handle}" %>
-    <%- end - %>
+    <%- end -%>
   </span>
   <%= comment.content %>
   <%- if session[:user] -%>
