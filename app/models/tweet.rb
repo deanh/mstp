@@ -16,14 +16,14 @@ class Tweet
     c.source              = "twitter"
     c.twitter_handle      = tweet.from_user
     c.twitter_response_to = tweet.to_user
-    #c.uid                 = "#{tweet.id}"
+    c.uid                 = "#{tweet.id}"
     if u = User.find_by_twitter_handle(c.twitter_handle)
       c.user = u
     end
 
     # a kind of lame attempt to thread
     if c.twitter_response_to
-        parent = Comment.find(:conditions => "twitter_handle = #{c.twitter_response_to} and parent_id is NULL",
+        parent = Comment.find(:conditions => "twitter_handle = '#{c.twitter_response_to}' and parent_id is NULL",
                               :order => "created_at DESC",
                               :limit => 1)
       c.parent = parent if parent
