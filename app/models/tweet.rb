@@ -3,7 +3,7 @@ require 'twitter'
 class Tweet
   def self.ingest_by_search(search_term)
     Twitter::Search.new(search_term).each do |tweet|
-      next if Comment.find_by_uid(tweet.id)
+      next if Comment.find_by_uid("#{tweet.id}")
       #next if tweet.text.match(/^@/)
       create_comment(tweet)
     end
