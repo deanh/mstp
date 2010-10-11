@@ -5,6 +5,10 @@
   <%- form_tag :action=> "signup" do -%>
   <%= error_messages_for 'user' %>
   <ul>
+    <li><label for="user_name">Name:</label><br/>
+      <%= text_field "user", "name", :size => 20 %></li>
+    <li><label for="user_twitter_handle">Twitter Handle</label><br/>
+      <%= text_field "user", "twitter_handle", :size => 20 %></li>
     <li><label for="user_email">Email:</label><br/>
       <%= text_field "user", "email",  :size => 20 %></li>
     <li><label for="user_password">Password:</label><br/>

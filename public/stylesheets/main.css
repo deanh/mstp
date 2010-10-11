@@ -24,6 +24,7 @@ div#login #login-bar {padding: 10px; position: fixed; right: 20px;}
 div#main {margin: auto; width: 70%;}
 div#comments {margin: 0 10px; padding: 50px 5px; 
               background-color: #fff; height: 100%; /* border: 1px dotted #0f7a44; */}
+span.credit {display: block; font-size: 1em; font-weight: bold;}
 div#comments form span.form-link {}
 div#comments ul {list-style-type: none;}
 div#comments li {padding-left: 20px}

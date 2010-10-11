@@ -6216,3 +6216,1701 @@ Rendering template within layouts/application
 Rendering comment/index
 Rendered user/_login_bar (7.1ms)
 Completed in 210ms (View: 136, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:37:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (21.2ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (5.7ms)
+Completed in 192ms (View: 125, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:38:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (21.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.6ms)
+Completed in 309ms (View: 244, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:39:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (16.6ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.6ms)
+Completed in 204ms (View: 131, DB: 17) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:40:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (21.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.6ms)
+Completed in 194ms (View: 128, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:41:10) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (24.2ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.6ms)
+Completed in 324ms (View: 259, DB: 24) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:42:10) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (27.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.3ms)
+Completed in 205ms (View: 133, DB: 28) | 200 OK [http://localhost/]
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 10) [0m
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:43:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (21.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.0ms)
+Completed in 190ms (View: 126, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:44:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (25.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.1ms)
+Completed in 238ms (View: 153, DB: 25) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:45:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (28.6ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (13.4ms)
+Completed in 297ms (View: 194, DB: 29) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:46:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (35.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.6ms)
+Completed in 620ms (View: 509, DB: 35) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:47:14) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (24.1ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.3ms)
+Completed in 197ms (View: 126, DB: 24) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:48:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (24.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.4ms)
+Completed in 198ms (View: 132, DB: 24) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:49:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (48.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (15.2ms)
+Completed in 564ms (View: 406, DB: 48) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:50:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (16.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.8ms)
+Completed in 194ms (View: 128, DB: 17) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:51:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (21.0ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (5.8ms)
+Completed in 192ms (View: 126, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:52:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (21.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.6ms)
+Completed in 367ms (View: 282, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:53:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (19.6ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (10.9ms)
+Completed in 208ms (View: 145, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:54:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (21.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (10.4ms)
+Completed in 203ms (View: 135, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:55:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (21.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.2ms)
+Completed in 200ms (View: 122, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:56:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (18.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.9ms)
+Completed in 227ms (View: 155, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:57:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (16.2ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.0ms)
+Completed in 306ms (View: 247, DB: 16) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:58:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (20.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.8ms)
+Completed in 214ms (View: 143, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 16:59:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (22.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.2ms)
+Completed in 211ms (View: 142, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:00:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (19.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (10.0ms)
+Completed in 323ms (View: 261, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:01:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (19.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.1ms)
+Completed in 194ms (View: 131, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:02:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (19.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.9ms)
+Completed in 210ms (View: 139, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:03:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (21.9ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.7ms)
+Completed in 332ms (View: 261, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:04:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (19.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.4ms)
+Completed in 204ms (View: 137, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:05:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (18.8ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.1ms)
+Completed in 185ms (View: 123, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:06:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (23.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.1ms)
+Completed in 303ms (View: 119, DB: 23) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:07:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (25.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (5.9ms)
+Completed in 255ms (View: 164, DB: 25) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:08:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (22.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (132.3ms)
+Completed in 324ms (View: 255, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:09:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (32.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.8ms)
+Completed in 304ms (View: 181, DB: 33) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:10:28) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (20.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.4ms)
+Completed in 189ms (View: 125, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:11:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (16.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.6ms)
+Completed in 302ms (View: 244, DB: 17) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:12:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (18.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.3ms)
+Completed in 189ms (View: 126, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:13:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (20.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.2ms)
+Completed in 187ms (View: 121, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:14:30) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (18.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.4ms)
+Completed in 358ms (View: 285, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:15:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (19.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.3ms)
+Completed in 189ms (View: 122, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:16:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (22.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (5.8ms)
+Completed in 186ms (View: 120, DB: 22) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:17:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (17.8ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (7.0ms)
+Completed in 320ms (View: 127, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:18:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (18.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.5ms)
+Completed in 186ms (View: 124, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:19:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (21.0ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.0ms)
+Completed in 188ms (View: 124, DB: 21) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:20:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (18.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.1ms)
+Completed in 182ms (View: 117, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:21:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (18.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.3ms)
+Completed in 177ms (View: 119, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:22:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (19.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.2ms)
+Completed in 304ms (View: 243, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:23:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (24.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (10.2ms)
+Completed in 276ms (View: 194, DB: 24) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:24:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (20.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (14.5ms)
+Completed in 313ms (View: 234, DB: 20) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:25:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (34.0ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (24.5ms)
+Completed in 565ms (View: 429, DB: 34) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:26:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (33.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.9ms)
+Completed in 401ms (View: 294, DB: 34) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:27:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (26.4ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.2ms)
+Completed in 247ms (View: 162, DB: 26) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:28:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (25.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.7ms)
+Completed in 419ms (View: 333, DB: 25) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:29:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (59.9ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (20.0ms)
+Completed in 657ms (View: 473, DB: 60) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:30:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (28.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (8.8ms)
+Completed in 285ms (View: 189, DB: 29) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:31:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (26.6ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.1ms)
+Completed in 241ms (View: 155, DB: 27) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:32:44) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (48.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (15.8ms)
+Completed in 337ms (View: 198, DB: 49) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:33:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (62.2ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (17.8ms)
+Completed in 752ms (View: 587, DB: 62) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:34:47) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (37.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (15.3ms)
+Completed in 326ms (View: 198, DB: 38) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:35:47) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (32.3ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (16.4ms)
+Completed in 338ms (View: 205, DB: 32) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:36:48) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (46.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (13.5ms)
+Completed in 564ms (View: 412, DB: 46) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:37:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (40.9ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (17.3ms)
+Completed in 333ms (View: 203, DB: 41) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:38:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (28.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.9ms)
+Completed in 300ms (View: 201, DB: 28) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:39:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (30.1ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (9.0ms)
+Completed in 487ms (View: 369, DB: 30) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:40:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (30.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (10.9ms)
+Completed in 277ms (View: 164, DB: 30) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:41:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (26.0ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (10.8ms)
+Completed in 254ms (View: 168, DB: 26) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:42:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (29.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (10.6ms)
+Completed in 421ms (View: 175, DB: 29) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:43:54) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (16.0ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.7ms)
+Completed in 190ms (View: 124, DB: 16) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:44:54) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (17.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.0ms)
+Completed in 190ms (View: 115, DB: 18) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:45:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (36.6ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (10.0ms)
+Completed in 298ms (View: 182, DB: 37) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 17:46:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (15.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (5.6ms)
+Completed in 186ms (View: 123, DB: 16) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+Migrating to AddUidToComment (20101007025232)
+Migrating to CreateUsers (20101007042148)
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (12.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: duplicate column name: twitter_handle: ALTER TABLE "users" ADD "twitter_handle" varchar(255)[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101007042148'[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.9ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255)) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101007025232'[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (1.9ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101001023022'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101001023022')[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.3ms)[0m   [0mALTER TABLE "comments" ADD "uid" varchar(255)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007025232')[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: duplicate column name: twitter_handle: ALTER TABLE "users" ADD "twitter_handle" varchar(255)[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101007042148'[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (2.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101007025232'[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (1.2ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101001023022'[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101001023022')[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.3ms)[0m   [0mALTER TABLE "comments" ADD "uid" varchar(255)[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007025232')[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.2ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: duplicate column name: twitter_handle: ALTER TABLE "users" ADD "twitter_handle" varchar(255)[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101007042148'[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.7ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101007025232'[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101001023022'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101001023022')[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.8ms)[0m   [0mALTER TABLE "comments" ADD "uid" varchar(255)[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007025232')[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (1.1ms)[0m   [0;1mALTER TABLE "users" ADD "url" varchar(255)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mALTER TABLE "comments" ADD "user_id" integer[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mALTER TABLE "comments" ADD "twitter_handle" varchar(255)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: duplicate column name: source: ALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (10.5ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101007042148'[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (8.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255)) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101007025232'[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (9.8ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101001023022'[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101001023022')[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.4ms)[0m   [0mALTER TABLE "comments" ADD "uid" varchar(255)[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007025232')[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.2ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mALTER TABLE "users" ADD "url" varchar(255)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mALTER TABLE "comments" ADD "user_id" integer[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mALTER TABLE "comments" ADD "twitter_handle" varchar(255)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101010234044')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("comments")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "user_id" integer, "twitter_handle" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twitter_handle" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twitter_handle" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (27.5ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255)) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101010234044'[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.3ms)[0m   [0;1mDROP TABLE "users"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101007042148'[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("comments")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("altered_comments")[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "altered_comments"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("comments")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("altered_comments")[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "altered_comments"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101007025232'[0m
+Migrating to CreateComments (20101001023022)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101001023022'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101001023022')[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.3ms)[0m   [0mALTER TABLE "comments" ADD "uid" varchar(255)[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007025232')[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (1.6ms)[0m   [0;1mALTER TABLE "users" ADD "url" varchar(255)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mALTER TABLE "comments" ADD "user_id" integer[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mALTER TABLE "comments" ADD "twitter_handle" varchar(255)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mALTER TABLE "comments" ADD "twttier_response_to" varchar(255)[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101010234044')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26997001039) LIMIT 1[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26997001039) LIMIT 1[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "user_id" integer, "twitter_handle" varchar(255), "twttier_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twitter_handle" varchar(255), "twttier_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twitter_handle" varchar(255), "twttier_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twttier_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twttier_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "twttier_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101010234044'[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDROP TABLE "users"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101007042148'[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "twttier_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("comments")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "twttier_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("altered_comments")[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "altered_comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "twttier_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("comments")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "twttier_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("altered_comments")[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "altered_comments"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101007025232'[0m
+Migrating to CreateComments (20101001023022)
+  [4;35;1mSQL (2.1ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101001023022'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101001023022')[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.9ms)[0m   [0mALTER TABLE "comments" ADD "uid" varchar(255)[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007025232')[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mALTER TABLE "users" ADD "url" varchar(255)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mALTER TABLE "comments" ADD "user_id" integer[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mALTER TABLE "comments" ADD "twitter_handle" varchar(255)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mALTER TABLE "comments" ADD "twitter_response_to" varchar(255)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101010234044')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26997001039) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'alibidan') LIMIT 1[0m
+  [4;36;1mComment Create (1.3ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Mon, 11 Oct 2010 03:01:42 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26997001039, NULL, NULL, 'Web Upgrade HTML 5 May Weaken Privacy -as a video guy, i love html5 but this is scary #mcdmresearch #mcdm http://nyti.ms/bLECy5', 'alibidan', 'twitter')[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26985411007) LIMIT 1[0m
+  [4;36;1mUser Load (7.7ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'alibidan') LIMIT 1[0m
+  [4;35;1mComment Create (0.7ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Mon, 11 Oct 2010 00:39:05 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26985411007, NULL, NULL, '#mcdmresearch David Carr in today''s Times. #digidem Brand-Name Journalists Cross a Vanishing Divide . - http://nyti.ms/9sSX2h', 'alibidan', 'twitter')[0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26984102776) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'marinaferrerlo') LIMIT 1[0m
+  [4;36;1mComment Create (0.8ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Mon, 11 Oct 2010 00:21:14 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26984102776, NULL, NULL, 'researching information for my research problem #mcdmresearch', 'marinaferrerlo', 'twitter')[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26982923479) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'marinaferrerlo') LIMIT 1[0m
+  [4;35;1mComment Create (0.9ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Mon, 11 Oct 2010 00:04:46 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26982923479, NULL, NULL, 'RT @AnitaMedia: Follow @swedish Health-Care Innovation tommorow&gt; 8 a.m. via Livestream. #mcdm #mcdmresearch http://bit.ly/sw100live', 'marinaferrerlo', 'twitter')[0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26979832153) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'alibidan') LIMIT 1[0m
+  [4;36;1mComment Create (0.8ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sun, 10 Oct 2010 23:21:12 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26979832153, NULL, NULL, '#mcdmresearch. In the research commons now. A little unformed but way cool http://yfrog.com/jyushqj', 'alibidan', 'twitter')[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26977529758) LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'AnitaMedia') LIMIT 1[0m
+  [4;35;1mComment Create (0.7ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sun, 10 Oct 2010 22:46:35 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26977529758, NULL, NULL, 'Follow @swedish Health-Care Innovation tommorow&gt; 8 a.m. via Livestream. #mcdm #mcdmresearch http://bit.ly/sw100live', 'AnitaMedia', 'twitter')[0m
+  [4;36;1mComment Load (2.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26977024443) LIMIT 1[0m
+  [4;35;1mUser Load (0.7ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'AnitaMedia') LIMIT 1[0m
+  [4;36;1mComment Create (0.7ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sun, 10 Oct 2010 22:38:42 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26977024443, NULL, NULL, 'Happy to have completed my EPA-Climate Change Communication Project. Anyone else working on EPA?
+#mcdmresearch', 'AnitaMedia', 'twitter')[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26970165589) LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'CathyABritt') LIMIT 1[0m
+  [4;35;1mComment Create (0.7ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sun, 10 Oct 2010 20:50:29 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26970165589, NULL, NULL, 'Trying to do some reading &amp; writing for #mcdmresearch while visiting Wenatchee. Wish I didn''t have to drive home so I could keep working!', 'CathyABritt', 'twitter')[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26966250349) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'jeffbarr') LIMIT 1[0m
+  [4;36;1mComment Create (1.3ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sun, 10 Oct 2010 19:53:41 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26966250349, NULL, NULL, 'Working on my #mcdmresearch homework today.', 'jeffbarr', 'twitter')[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26963990772) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'RubaHachim') LIMIT 1[0m
+  [4;35;1mComment Create (0.6ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sun, 10 Oct 2010 19:22:28 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26963990772, NULL, NULL, 'Heads down today, working on #mcdmresearch paper - Someitmes I wish I can be cloned.', 'RubaHachim', 'twitter')[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26962051709) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'cimurata') LIMIT 1[0m
+  [4;36;1mComment Create (0.9ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sun, 10 Oct 2010 18:56:02 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26962051709, NULL, NULL, 'Researching voters guides for #mcdmresearch and realize that we need the Living Voters Guide now more than ever. #lvguide http://goo.gl/mPIz', 'cimurata', 'twitter')[0m
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26915453340) LIMIT 1[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26910045155) LIMIT 1[0m
+  [4;35;1mUser Load (1.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'lynnewatanabe') LIMIT 1[0m
+  [4;36;1mComment Create (0.7ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sun, 10 Oct 2010 05:11:57 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26910045155, NULL, NULL, '6 StartUp Trends @TechCrunch Disrupt: http://bit.ly/dg7GvJ Thought of this list &amp; #Storify during The #NewHive presentation #mcdmresearch', 'lynnewatanabe', 'twitter')[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26906757077) LIMIT 1[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26882281728) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'zachverdin') LIMIT 1[0m
+  [4;36;1mComment Create (0.8ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:23:54', 'At Sat, 09 Oct 2010 22:43:01 +0000 via Twitter', '2010-10-11 03:23:54', NULL, 26882281728, NULL, NULL, 'The super beta you see is step one. There are many more steps still left to roll out our larger vision one step at a time :) #mcdmresearch', 'zachverdin', 'twitter')[0m
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 20:24:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (4.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (11.5ms)
+Completed in 323ms (View: 158, DB: 5) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 20:25:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (7.8ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.3ms)
+Completed in 93ms (View: 39, DB: 8) | 200 OK [http://localhost/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:25:57) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"comment"}
+  [4;36;1mComment Load (1.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (3.0ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+Rendered comment/_comment (40.7ms)
+Rendered user/_login_bar (7.0ms)
+Completed in 178ms (View: 124, DB: 4) | 200 OK [http://localhost/comment/show/3]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:26:58) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"comment"}
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+Rendered comment/_comment (16.3ms)
+Rendered user/_login_bar (5.8ms)
+Completed in 76ms (View: 29, DB: 2) | 200 OK [http://localhost/comment/show/3]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:27:58) [GET]
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"comment"}
+  [4;36;1mComment Load (1.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 3) ORDER BY created_at[0m
+Rendered comment/_comment (15.3ms)
+Rendered user/_login_bar (6.0ms)
+Completed in 75ms (View: 28, DB: 2) | 200 OK [http://localhost/comment/show/3]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 20:28:26) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (7.9ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (5.9ms)
+Completed in 222ms (View: 179, DB: 8) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 20:28:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (9.8ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (5.9ms)
+Completed in 115ms (View: 46, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:29:24) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (21.6ms)
+Rendered user/_login_bar (8.0ms)
+Completed in 94ms (View: 58, DB: 2) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:29:43) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (5.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (17.0ms)
+Rendered user/_login_bar (9.1ms)
+Completed in 89ms (View: 50, DB: 6) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:30:52) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"comment"}
+  [4;36;1mComment Load (2.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 1) ORDER BY created_at[0m
+Rendered comment/_comment (17.6ms)
+Rendered user/_login_bar (5.7ms)
+Completed in 71ms (View: 30, DB: 3) | 200 OK [http://localhost/comment/show/1]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 20:31:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (12.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.5ms)
+Completed in 91ms (View: 45, DB: 12) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 20:31:10) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (9.2ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.8ms)
+Completed in 122ms (View: 53, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 20:31:10) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;36;1mComment Load (6.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (6.1ms)
+Completed in 84ms (View: 48, DB: 6) | 200 OK [http://localhost/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:31:22) [GET]
+  Parameters: {"action"=>"show", "id"=>"7", "controller"=>"comment"}
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments".parent_id = 7) ORDER BY created_at[0m
+Rendered comment/_comment (18.0ms)
+Rendered user/_login_bar (5.6ms)
+Completed in 79ms (View: 45, DB: 2) | 200 OK [http://localhost/comment/show/7]
+
+
+Processing CommentController#index (for 127.0.0.1 at 2010-10-10 20:32:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"comment"}
+  [4;35;1mComment Load (10.5ms)[0m   [0mSELECT * FROM "comments" WHERE (parent_id is NULL) [0m
+Rendering template within layouts/application
+Rendering comment/index
+Rendered user/_login_bar (5.7ms)
+Completed in 95ms (View: 42, DB: 11) | 200 OK [http://localhost/]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:32:28) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (18.6ms)
+Rendered user/_login_bar (5.5ms)
+Completed in 86ms (View: 45, DB: 2) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:33:28) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (25.3ms)
+Rendered user/_login_bar (7.9ms)
+Completed in 95ms (View: 61, DB: 2) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:34:28) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.8ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (20.7ms)
+Rendered user/_login_bar (8.6ms)
+Completed in 81ms (View: 38, DB: 2) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:35:28) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (22.4ms)
+Rendered user/_login_bar (8.6ms)
+Completed in 74ms (View: 38, DB: 2) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:36:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (18.7ms)
+Rendered user/_login_bar (6.0ms)
+Completed in 67ms (View: 33, DB: 2) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:37:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.1ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (18.3ms)
+Rendered user/_login_bar (6.2ms)
+Completed in 68ms (View: 32, DB: 2) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:38:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (2.0ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (16.3ms)
+Rendered user/_login_bar (6.2ms)
+Completed in 71ms (View: 29, DB: 3) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:39:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (14.7ms)
+Rendered user/_login_bar (6.0ms)
+Completed in 75ms (View: 26, DB: 2) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:40:30) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (3.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (15.7ms)
+Rendered user/_login_bar (6.2ms)
+Completed in 73ms (View: 28, DB: 4) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:41:30) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.4ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (12.6ms)
+Rendered user/_login_bar (6.5ms)
+Completed in 85ms (View: 26, DB: 2) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:41:46) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (3.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (19.3ms)
+Rendered user/_login_bar (6.9ms)
+Completed in 75ms (View: 33, DB: 4) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:42:47) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (4.2ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (18.4ms)
+Rendered user/_login_bar (6.3ms)
+Completed in 71ms (View: 31, DB: 5) | 200 OK [http://localhost/comment/show/6]
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:43:47) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering comment/show
+  [4;35;1mComment Load (0.9ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".parent_id = 6) ORDER BY created_at[0m
+Rendered comment/_comment (18.3ms)
+Rendered user/_login_bar (10.8ms)
+Completed in 78ms (View: 37, DB: 2) | 200 OK [http://localhost/comment/show/6]
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (3.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (10.8ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime, "url" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "user_id" integer, "twitter_handle" varchar(255), "twitter_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twitter_handle" varchar(255), "twitter_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twitter_handle" varchar(255), "twitter_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twitter_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255), "twitter_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "twitter_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101010234044'[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.4ms)[0m   [0;1mDROP TABLE "users"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101007042148'[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "twitter_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("comments")[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "twitter_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("altered_comments")[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "altered_comments"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "twitter_response_to" varchar(255)) [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("comments")[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "twitter_response_to" varchar(255)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("altered_comments")[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE "altered_comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101007025232'[0m
+Migrating to CreateComments (20101001023022)
+  [4;35;1mSQL (1.6ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101001023022'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing CommentController#show (for 127.0.0.1 at 2010-10-10 20:44:47) [GET]
+  Parameters: {"action"=>"show", "id"=>"6", "controller"=>"comment"}
+
+ActiveRecord::StatementInvalid (Could not find table 'comments'):
+  app/controllers/comment_controller.rb:9:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (204.2ms)
+Rendered rescues/_request_and_response (5.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101001023022')[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.3ms)[0m   [0mALTER TABLE "comments" ADD "uid" varchar(255)[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007025232')[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mALTER TABLE "users" ADD "url" varchar(255)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: duplicate column name: name: ALTER TABLE "users" ADD "name" varchar(255)[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20101007042148'[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (1.7ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "uid" varchar(255), "source" varchar(255)) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TEMPORARY TABLE "altered_comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime, "source" varchar(255)) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mDROP TABLE "comments"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("altered_comments")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_comments"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101007025232'[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDROP TABLE "comments"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101001023022'[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateComments (20101001023022)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "parent_id" integer, "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101001023022')[0m
+Migrating to AddUidToComment (20101007025232)
+  [4;35;1mSQL (3.2ms)[0m   [0mALTER TABLE "comments" ADD "uid" varchar(255)[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mALTER TABLE "comments" ADD "source" varchar(255)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007025232')[0m
+Migrating to CreateUsers (20101007042148)
+  [4;36;1mSQL (1.4ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "crypted_password" varchar(255), "salt" varchar(255), "name" varchar(255), "twitter_handle" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101007042148')[0m
+Migrating to ExtendedMetadata1 (20101010234044)
+  [4;36;1mSQL (2.3ms)[0m   [0;1mALTER TABLE "users" ADD "url" varchar(255)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mALTER TABLE "comments" ADD "user_id" integer[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mALTER TABLE "comments" ADD "twitter_handle" varchar(255)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mALTER TABLE "comments" ADD "twitter_response_to" varchar(255)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101010234044')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26997001039) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'alibidan') LIMIT 1[0m
+  [4;36;1mComment Create (1.2ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Mon, 11 Oct 2010 03:01:42 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26997001039, NULL, NULL, 'Web Upgrade HTML 5 May Weaken Privacy -as a video guy, i love html5 but this is scary #mcdmresearch #mcdm http://nyti.ms/bLECy5', 'alibidan', 'twitter')[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26985411007) LIMIT 1[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'alibidan') LIMIT 1[0m
+  [4;35;1mComment Create (0.8ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Mon, 11 Oct 2010 00:39:05 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26985411007, NULL, NULL, '#mcdmresearch David Carr in today''s Times. #digidem Brand-Name Journalists Cross a Vanishing Divide . - http://nyti.ms/9sSX2h', 'alibidan', 'twitter')[0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26984102776) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'marinaferrerlo') LIMIT 1[0m
+  [4;36;1mComment Create (0.6ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Mon, 11 Oct 2010 00:21:14 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26984102776, NULL, NULL, 'researching information for my research problem #mcdmresearch', 'marinaferrerlo', 'twitter')[0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26982923479) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'marinaferrerlo') LIMIT 1[0m
+  [4;35;1mComment Create (0.9ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Mon, 11 Oct 2010 00:04:46 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26982923479, NULL, NULL, 'RT @AnitaMedia: Follow @swedish Health-Care Innovation tommorow&gt; 8 a.m. via Livestream. #mcdm #mcdmresearch http://bit.ly/sw100live', 'marinaferrerlo', 'twitter')[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26979832153) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'alibidan') LIMIT 1[0m
+  [4;36;1mComment Create (0.8ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Sun, 10 Oct 2010 23:21:12 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26979832153, NULL, NULL, '#mcdmresearch. In the research commons now. A little unformed but way cool http://yfrog.com/jyushqj', 'alibidan', 'twitter')[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26977529758) LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'AnitaMedia') LIMIT 1[0m
+  [4;35;1mComment Create (0.6ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Sun, 10 Oct 2010 22:46:35 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26977529758, NULL, NULL, 'Follow @swedish Health-Care Innovation tommorow&gt; 8 a.m. via Livestream. #mcdm #mcdmresearch http://bit.ly/sw100live', 'AnitaMedia', 'twitter')[0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26977024443) LIMIT 1[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'AnitaMedia') LIMIT 1[0m
+  [4;36;1mComment Create (0.6ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Sun, 10 Oct 2010 22:38:42 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26977024443, NULL, NULL, 'Happy to have completed my EPA-Climate Change Communication Project. Anyone else working on EPA?
+#mcdmresearch', 'AnitaMedia', 'twitter')[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26970165589) LIMIT 1[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'CathyABritt') LIMIT 1[0m
+  [4;35;1mComment Create (0.7ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Sun, 10 Oct 2010 20:50:29 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26970165589, NULL, NULL, 'Trying to do some reading &amp; writing for #mcdmresearch while visiting Wenatchee. Wish I didn''t have to drive home so I could keep working!', 'CathyABritt', 'twitter')[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26966250349) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'jeffbarr') LIMIT 1[0m
+  [4;36;1mComment Create (0.8ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Sun, 10 Oct 2010 19:53:41 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26966250349, NULL, NULL, 'Working on my #mcdmresearch homework today.', 'jeffbarr', 'twitter')[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26963990772) LIMIT 1[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'RubaHachim') LIMIT 1[0m
+  [4;35;1mComment Create (1.3ms)[0m   [0mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Sun, 10 Oct 2010 19:22:28 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26963990772, NULL, NULL, 'Heads down today, working on #mcdmresearch paper - Someitmes I wish I can be cloned.', 'RubaHachim', 'twitter')[0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM "comments" WHERE ("comments"."uid" = 26962051709) LIMIT 1[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'cimurata') LIMIT 1[0m
+  [4;36;1mComment Create (0.8ms)[0m   [0;1mINSERT INTO "comments" ("created_at", "title", "updated_at", "twitter_response_to", "uid", "user_id", "parent_id", "content", "twitter_handle", "source") VALUES('2010-10-11 03:56:40', 'At Sun, 10 Oct 2010 18:56:02 +0000 via Twitter', '2010-10-11 03:56:40', NULL, 26962051709, NULL, NULL, 'Researching voters guides for #mcdmresearch and realize that we need the Living Voters Guide now more than ever. #lvguide http://goo.gl/mPIz', 'cimurata', 'twitter')[0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments"."uid" = 26915453340) LIMIT 1[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."twitter_handle" = 'hrhmedia') LIMIT 1[0m

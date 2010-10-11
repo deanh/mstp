@@ -1,5 +1,14 @@
 <div id="comment_<%= comment.id %>" class="comment">
   <h1><%= comment.title %></h1>
+  <span class="credit">
+    from: 
+    <%- unless comment.user.blank? -%>
+      <%= link_to "@#{comment.user.name}", :controller => 'user', :id => comment.user.id %>
+    <%- end ->
+    <%- unless comment.twitter_handle.blank? -%>
+      <%= link_to "@#{comment.twitter_handle}", "http://twitter.com/#{comment.twitter_handle}" %>
+    <%- end - %>
+  </span>
   <%= comment.content %>
   <%- if session[:user] -%>
     <%= render :partial => 'comment/comment_form', :locals => {:comment => comment}%>
