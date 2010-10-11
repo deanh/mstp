@@ -1,10 +1,10 @@
 <div id="comments">
-  <h1>Recently</h1>
+  <h1>Current Discussions</h1>
   <%- @comments.each do |comment| -%>
     <div id="comment_<%= comment.id %>" class="comment roomy">
       <h2><%= comment.title %></h2>
       <%= comment.content %>
-      <ul>
+      <p class="comment-count"><%= comment.descendants.size %> comments<p>
     </div>
     <%- content_for :inline_js do -%>
     $('#comment_<%= comment.id %>').click(function () {

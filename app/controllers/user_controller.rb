@@ -1,6 +1,11 @@
 class UserController < ApplicationController
   before_filter :login_required, :only => ['change_password']
 
+  def show
+    @user = User.find_by_id(params[:id])
+    @comments = @user.comments.reverse
+  end
+
   def signup
     @user   = User.new
     if request.post? 

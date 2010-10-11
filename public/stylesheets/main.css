@@ -2,9 +2,7 @@
 body {background-color: #b5f13d; 
     color: #0f7a44; font: 0.8125em Verdana, sans-serif; }
 
-body#user {background-color: #000; margin-top: 50px;
-    color: #fff; font: 1.2em Verdana, sans-serif; }
-body#user div#login {display: none; margin-left: 100000px}
+body#user div#login form {display: none; margin-left: 100000px}
 body#user ul {list-style: none;}
 
 h1 {font: 2em Georgia, "Times New Roman", serif; 
@@ -16,6 +14,16 @@ a {color:#d63691}
 button {margin: 5px 5px 10px 0px; background-color: buttonface;
     border: 2px outset buttonface; color: buttontext; cursor: default; 
     padding: 2px 6px 3px; text-align: center; -webkit-appearance: button;}
+
+form#signup-form fieldset {margin-bottom: 10px; border: none;}
+form#signup-form legend {padding: 0 2px; font-size: 1.1em; font-weight: bold; margin-left: 35%;}
+form#signup-form label {display: inline-block; line-height: 1.8; vertical-align: top;}
+form#signup-form fieldset ul {margin: 0; padding: 0;}
+form#signup-form fieldset li {list-style: none; padding: 5px; margin: 0;}
+form#signup-form label {width: 40%; text-align: right;}
+form#signup-form input {font-size: 1.4em; border: 1px solid #999;}
+form#signup-form input[type='submit'] {padding: 5px; margin-left: 20px;}
+form#signup-form em {color: #f00;}
 
 div#login {position: fixed; top: 0; left: 0; height: 40px; 
     width: 100%; background-color: #000; color: #fff;
@@ -32,3 +40,7 @@ div.comment {border-left: 1px dotted #ccc; margin: 15px 5px 0 5px; border-top: 1
      margin-left: 5px; padding: 10px 5px; -moz-box-shadow: 3px 3px 3px #bbb; 
      -webkit-box-shadow: 3px 3px 3px #bbb; box-shadow: 3px 3px 3px #bbb;}
 div.comment.roomy {margin: 15px 5px 0 5px; border-top: 1px dotted #ccc;}
+div.comment p.reply {margin: 10px; 5px;}
+div.comment p.comment-count {margin: 10px 0; font-size: 1em; font-weight: bold;}
+
+dt {float: left; width: 7em;}

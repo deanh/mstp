@@ -1,0 +1,18 @@
+<div id="comments">
+  <h1><%= @user.name %></h1>
+  <%= image_tag "/images/blank-profile.jpg" %>
+  <h2>Contact</h2>
+  <dl class="user-contact">
+    <dt>Email:</dt>
+    <dd><%= mail_to @user.email %></dd>
+    <dt>Twitter:</dt>
+    <dd><%= link_to @user.twitter_handle, "http://twitter.com/#{@user.twitter_handle}" %></dd>
+  </dl>
+  <div id="twitter-feed"></div>
+  <h2>MSTP Posts</h2>
+  <%- @comments.each do |c| -%>
+    <%= render :partial => 'comment/comment', :locals => {:comment => c, :no_reply => true} %>
+  <%- end -%>
+</div>
+
+

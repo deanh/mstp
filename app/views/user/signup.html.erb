@@ -1,21 +1,26 @@
 <%- content_for :body_style do;-%>id='user'<%- end -%>
 
+<div id="comments">
 <h1>Sign Up</h1>
 <div class="section">
-  <%- form_tag :action=> "signup" do -%>
+  <%- form_tag({:action=>'signup'}, {:id=>"signup-form"}) do -%>
   <%= error_messages_for 'user' %>
-  <ul>
-    <li><label for="user_name">Name:</label><br/>
-      <%= text_field "user", "name", :size => 20 %></li>
-    <li><label for="user_twitter_handle">Twitter Handle</label><br/>
-      <%= text_field "user", "twitter_handle", :size => 20 %></li>
-    <li><label for="user_email">Email:</label><br/>
-      <%= text_field "user", "email",  :size => 20 %></li>
-    <li><label for="user_password">Password:</label><br/>
-      <%= password_field "user", "password", :size => 20 %></li>
-    <li><label for="user_password_confirmation">Password Confirmation:</label><br/>
-      <%= password_field "user", "password_confirmation", :size => 20 %></li>
-    <li><%= submit_tag "Sign Up" %></li>
-  </ul>
+  <fieldset>
+    <legend>Are you new? Join the discussion!</legend>
+    <ul>
+      <li><label for="user_name"><em>*</em> Name:</label>
+        <%= text_field "user", "name", :size => 20 %></li>
+      <li><label for="user_twitter_handle">Twitter Handle</label>
+        <%= text_field "user", "twitter_handle", :size => 20 %></li>
+      <li><label for="user_email"><em>*</em> Email:</label>
+        <%= text_field "user", "email",  :size => 20 %></li>
+      <li><label for="user_password"><em>*</em> Password:</label>
+        <%= password_field "user", "password", :size => 20 %></li>
+      <li><label for="user_password_confirmation"><em>*</em> Password Confirmation:</label>
+        <%= password_field "user", "password_confirmation", :size => 20 %></li>
+      <li><label></label><%= submit_tag "Sign Up" %></li>
+    </ul>
+  </fieldset>
   <%- end -%>
+</div>
 </div>

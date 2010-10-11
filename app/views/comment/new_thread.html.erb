@@ -1,0 +1,17 @@
+<div id="comments"
+<%- form_tag(:action => 'create') do -%>
+  <h1>New Topic</h1>
+  <ul>
+    <li><label for="title">Title:</label><br/>
+    <%= text_field_tag(:title) %></li>
+    <li><%= text_area_tag(:content, "", :size => '60x15') %></li>
+    <li><%= submit_tag("Save") %> <button type="button" id="cancel">Cancel</button></li>
+  </ul>
+<%- end -%>
+</div>
+<%- content_for :inline_js do -%>
+  $('#cancel').click(function () {
+      window.location = "/";
+      return false;
+  });
+<%- end -%>

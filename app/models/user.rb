@@ -1,6 +1,8 @@
 require 'digest/sha1'
 
 class User < ActiveRecord::Base
+  has_many :comments
+
   validates_length_of :password, :within => 5..40
   validates_presence_of :email, :password, :password_confirmation, :salt
   validates_uniqueness_of :email
