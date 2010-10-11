@@ -7,10 +7,9 @@ class ExtendedMetadata1 < ActiveRecord::Migration
   end
 
   def self.down
-    remove_column :users, :twitter_handle
     remove_column :users, :url
     remove_column :comments, :user_id
     remove_column :comments, :twitter_handle
-    remove_column :comments, :source
+    remove_column :comments, :twitter_response_to
   end
 end
