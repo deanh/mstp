@@ -1,5 +1,3 @@
-require 'twitter'
-
 class Tweet
   def self.ingest_by_search(search_term)
     Twitter::Search.new(search_term).each do |tweet|

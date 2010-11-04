@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101010234044) do
+ActiveRecord::Schema.define(:version => 20101104042335) do
 
   create_table "comments", :force => true do |t|
     t.integer  "parent_id"
@@ -22,6 +22,26 @@ ActiveRecord::Schema.define(:version => 20101010234044) do
     t.integer  "user_id"
     t.string   "twitter_handle"
     t.string   "twitter_response_to"
+  end
+
+  create_table "delayed_jobs", :force => true do |t|
+    t.integer  "priority",   :default => 0
+    t.integer  "attempts",   :default => 0
+    t.text     "handler"
+    t.text     "last_error"
+    t.datetime "run_at"
+    t.datetime "locked_at"
+    t.datetime "failed_at"
+    t.text     "locked_by"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "search_terms", :force => true do |t|
+    t.string   "term"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "users", :force => true do |t|
