@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101104042335) do
+ActiveRecord::Schema.define(:version => 20101104082035) do
 
   create_table "comments", :force => true do |t|
     t.integer  "parent_id"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(:version => 20101104042335) do
     t.integer  "user_id"
     t.string   "twitter_handle"
     t.string   "twitter_response_to"
+    t.string   "search_term"
   end
 
   create_table "delayed_jobs", :force => true do |t|

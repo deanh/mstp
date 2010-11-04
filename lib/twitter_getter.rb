@@ -8,6 +8,7 @@ class TwitterGetter
   def perform
     Tweet.ingest_by_search(@term)
     Delayed::Job.enqueue TwitterGetter.new(@term)
+    sleep(10)
   end    
 end
 
