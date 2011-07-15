@@ -1,5 +1,5 @@
 <div id="comment_<%= comment.id %>" class="comment">
-  <h1><%= comment.title %></h1>
+  <h1><%= h comment.title %></h1>
   <span class="credit">
     from: 
     <%- unless comment.user.blank? -%>
@@ -12,7 +12,7 @@
       orginal tweet: <%= link_to comment.uid, "http://twitter.com/#{comment.twitter_handle}/statuses/#{comment.uid}" -%>
     <%- end -%>
   </span>
-  <%= comment.content %>
+  <%= h comment.content %>
   <%- unless defined? no_reply -%>
     <%- if session[:user] -%>
       <%= render :partial => 'comment/comment_form', :locals => {:comment => comment}%>
